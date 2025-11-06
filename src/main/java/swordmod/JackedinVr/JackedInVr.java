@@ -1,4 +1,4 @@
-package swordmod.JackedInVR;
+package swordmod.JackedinVr;
 
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;

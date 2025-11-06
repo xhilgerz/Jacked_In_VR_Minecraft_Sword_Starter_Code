@@ -1,6 +1,6 @@
 package swordmod;
 
-import swordmod.JackedInVR.JackedInVr;
+import swordmod.JackedinVr.JackedInVr;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tier;
 import net.minecraftforge.event.RegistryEvent;
