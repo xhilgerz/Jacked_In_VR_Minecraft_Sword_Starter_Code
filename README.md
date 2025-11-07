@@ -38,6 +38,8 @@ Navigate to the left side of your editor and open:
 
 CustomSword.java
 
+![Alt text](Tutorial_Images/Custom_Sword_Red_box.png)
+
 What is a Class?
 
 In school, a class is a group of students. In programming, a class is a bundle of code that stores:
