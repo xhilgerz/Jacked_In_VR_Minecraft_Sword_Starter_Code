@@ -127,7 +127,7 @@ Create a Tier
 
 Below your sword variable, create a new variable called myTier:
 
-
+![Alt text](Tutorial_Images/add_tier.png)
 
 
 Mining Level determines what your sword can mine:
@@ -156,6 +156,8 @@ Go to:
 
 resources -> data -> my_sword_recipe.json
 
+![Alt text](Tutorial_Images/resources_tab.png) ![Alt text](Tutorial_Images/assets_tab.png)![Alt text](Tutorial_Images/data_path.png) ![Alt text](Tutorial_Images/recipe_path.png)
+
 
 Example recipe:
 
@@ -180,11 +182,18 @@ Example recipe:
   }
 }
 
-Insert a graphic showing the crafting bench and the items layout.
+The layout of the letters may be familiar if you've ever crafted anything in Minecraft before.
+
+![Alt text](Tutorial_Images/resources_tab.png) ![Alt text](Tutorial_Images/crafting_table.png)
 
 The letters in the pattern (m, h) correspond to items defined in the key section.
 
 The pattern represents the crafting grid layout.
+
+Now Let's Test it!!!!
+
+![Alt text](Tutorial_Images/Test_Code.png)
+
 
 🎉 Wrap Up
 
