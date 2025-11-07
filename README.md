@@ -68,10 +68,18 @@ Eat
 
 Drink
 
-We bundle this information together into a Dog class. Similarly, our sword will have its own class.
+We bundle this information together into a Dog class.
+![Alt text](Tutorial_Images/Dog_class.jpg)
 
+Similarly, our sword will have its own class.
 
-Insert your image of Dog class here if desired.
+We'll look over the left and click on the CustomSword class
+
+![Alt text](Tutorial_Images\click_custom_sword.png)
+
+Once we click we should see this.
+
+![Alt text](Tutorial_Images/Custom_Sword_Class_Empty.png)
 
 4️⃣ Define Your Sword
 
@@ -83,7 +91,7 @@ public class CustomSword extends SwordItem {
     }
 }
 
-
+![Alt text](Tutorial_Images/Custom_Sword_Filled.png)
 
 Insert a visual representation of your sword class here.
 
@@ -91,18 +99,8 @@ Insert a visual representation of your sword class here.
 
 Before Minecraft recognizes your sword, you need to register it in SwordMod.java:
 
-public static final Item MY_SWORD = new CustomSword(MyTier, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+![Alt text](Tutorial_Images\Register_Sword.png)
 
-@SubscribeEvent
-public static void registerItems(final RegistryEvent.Register<Item> event) {
-    event.getRegistry().registerAll(
-        MY_SWORD.setRegistryName("my_sword")
-    );
-}
-
-
-
-Add image of registration code here
 
 6️⃣ Test Your Sword
 
@@ -110,7 +108,7 @@ Click the purple cube in the top-right corner to run your code.
 
 Open a world in Creative mode, go to the weapons tab, and you’ll find your custom sword.
 
-Right now, it looks like a plain stone sword. Don’t worry—we’ll customize it next! 🖌️
+
 
 7️⃣ Customize the Sword’s Appearance
 
