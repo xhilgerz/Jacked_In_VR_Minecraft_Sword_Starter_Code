@@ -75,7 +75,7 @@ Similarly, our sword will have its own class.
 
 We'll look over the left and click on the CustomSword class
 
-![Alt text](Tutorial_Images\click_custom_sword.png)
+![Alt text](Tutorial_Images/click_custom_sword.png)
 
 Once we click we should see this.
 
