@@ -10,7 +10,7 @@ Let’s get started! 🚀
 
 First, open the project in your preferred editor. This tutorial uses VS Code.
 
-![Alt text](CustomSword\Tutorial_Images\VS_Code.png)
+![Alt text](CustomSword/Tutorial_Images/VS_Code.png)
 
 2️⃣ Declare Variables
 
