@@ -95,7 +95,6 @@ public class CustomSword extends SwordItem {
 
 ![Alt text](Tutorial_Images/Custom_Sword_Filled.png)
 
-Insert a visual representation of your sword class here.
 
 5️⃣ Register Your Sword
 
