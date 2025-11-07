@@ -10,6 +10,9 @@ Let’s get started! 🚀
 
 First, open the project in your preferred editor. This tutorial uses VS Code.
 
+![Alt text](Tutorial_Images/VS_Code.png)
+
+
 2️⃣ Declare Variables
 
 A variable is like a special box with a name that we can store things inside.
@@ -25,6 +28,10 @@ mySword
 
 
 We’ll use this variable to store our custom sword data. Whenever we want this sword data, we just use mySword.
+
+![Alt text](Tutorial_Images/Declaring_Initializing_Variables.png)
+
+
 3️⃣ Create the Sword Class
 
 Navigate to the left side of your editor and open:
