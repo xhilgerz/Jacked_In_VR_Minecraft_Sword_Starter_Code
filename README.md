@@ -29,7 +29,7 @@ mySword
 
 We’ll use this variable to store our custom sword data. Whenever we want this sword data, we just use mySword.
 
-![Alt text](Tutorial_Images\Declaring_Initializing_Variables.png)
+![Alt text](Tutorial_Images/Declaring_Initializing_Variables.png)
 
 
 3️⃣ Create the Sword Class
