@@ -99,7 +99,7 @@ Insert a visual representation of your sword class here.
 
 Before Minecraft recognizes your sword, you need to register it in SwordMod.java:
 
-![Alt text](Tutorial_Images\Register_Sword.png)
+![Alt text](Tutorial_Images/Register_Sword.png)
 
 
 6️⃣ Test Your Sword
@@ -108,7 +108,9 @@ Click the purple cube in the top-right corner to run your code.
 
 Open a world in Creative mode, go to the weapons tab, and you’ll find your custom sword.
 
+![Alt text](Tutorial_Images/Test_Code.png)
 
+It's looks plain right now. But we'll change it in a bit.
 
 7️⃣ Customize the Sword’s Appearance
 
@@ -116,6 +118,7 @@ Go to:
 
 resources -> assets -> textures -> my_sword.png
 
+![Alt text](Tutorial_Images/resources_tab.png) ![Alt text](Tutorial_Images/assets_tab.png) ![Alt text](Tutorial_Images/textures_tab.png) ![Alt text](Tutorial_Images/sword_img_texture.png) 
 
 Now you can change the sword’s color and design. Make it your own!
 
@@ -124,20 +127,7 @@ Create a Tier
 
 Below your sword variable, create a new variable called myTier:
 
-public static final Tier myTier = new Tier() {
-    @Override
-    public int getUses() { return 2000; } // Durability
-    @Override
-    public float getSpeed() { return 8.0f; } // Mining speed
-    @Override
-    public float getAttackDamageBonus() { return 4.0f; } // Extra damage
-    @Override
-    public int getLevel() { return 4; } // Mining level
-    @Override
-    public int getEnchantmentValue() { return 22; } // Enchantability
-    @Override
-    public Ingredient getRepairIngredient() { return Ingredient.of(Items.NETHERITE_INGOT); }
-};
+
 
 
 Mining Level determines what your sword can mine:
