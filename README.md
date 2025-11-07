@@ -185,7 +185,7 @@ Example recipe:
 
 The layout of the letters may be familiar if you've ever crafted anything in Minecraft before.
 
-![Alt text](Tutorial_Images/resources_tab.png) ![Alt text](Tutorial_Images/crafting_table.png)
+![Alt text](Tutorial_Images/crafting_table.png)
 
 The letters in the pattern (m, h) correspond to items defined in the key section.
 
