@@ -10,6 +10,8 @@ Let’s get started! 🚀
 
 First, open the project in your preferred editor. This tutorial uses VS Code.
 
+![Alt text](Tutorial_Images\VS_Code.png)
+
 2️⃣ Declare Variables
 
 A variable is like a special box with a name that we can store things inside.
