@@ -9,9 +9,7 @@ public class CustomSword extends SwordItem {
 
     public CustomSword(){
         // Write your code here!
-        // (Tier, added damage, attack speed, )
-        super(SwordMod.myTier,0,2F,new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-
+       
         
     }
 }

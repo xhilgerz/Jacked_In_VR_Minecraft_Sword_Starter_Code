@@ -17,100 +17,18 @@ public class SwordMod
     public static final String MODID = "forgeyoursword";
     public static final String MODNAME = "YOUR MOD NAME HERE";
     public static String VERSION = "0.0.1";
-
     public static SwordMod instance;
     private static final Logger LOGGER = LogManager.getLogger();
 
     //*********** DECLARE VARIABLES ******************
     
-    public static CustomSword mySword;
-    public static Tier myTier;
 
     public SwordMod() {
 
-        //*********** INITIALIZE MATERIALS ******************
- /*Mining Level Notes
-
-            Can mine the same as...
-         * Mining Level = 1 : Wood
-         * Mining Level = 2 : Stone
-         * Mining Level = 3 : Iron 
-         * Mining Level >= 4: Netherite 
-         * 
-         */
-
-        /*Max Uses Notes
-
-         * maxUses = 2000  : Netherite
-         
-        */
-
-        /* Fastest Mining Speed Notes
-
-         * miningSpeed = 12  : Gold
-         
-        */
-
-        /* Max Damage Bonus Notes
-
-         * damageBonus =  4 : Netherite
-         
-        */
-
-         /* Max enchantability Bonus Notes
-
-         * damageBonus =  22 : Gold
-         
-        */
-
-        //addTier(int miningLevel, int maxUses, float miningSpeed, float damageBonus, int enchantability){
-        myTier = JackedInVr.addTier(4,200000, 20, 4.5F, 22);
-
-
-        mySword = new CustomSword();
-
-
-
-        //*********** INITIALIZE VARIABLES ******************
-
-         /*Mining Level Notes
-
-            Can mine the same as...
-         * Mining Level = 1 : Wood
-         * Mining Level = 2 : Stone
-         * Mining Level = 3 : Iron 
-         * Mining Level >= 4: Netherite
-         * 
-         */
-
-        /*Max Uses Notes
-
-         * maxUses = 2000  : Netherite
-         
-        */
-
-        /* Fastest Mining Speed Notes
-
-         * miningSpeed = 12  : Gold
-         
-        */
-
-        /* Max Damage Bonus Notes
-
-         * damageBonus =  4 : netherite
-         
-        */
-
-         /* Max enchantability Bonus Notes
-
-         * damageBonus =  22 : Gold
-         
-        */
-
-        
+        //*********** INITIALIZE VARIABLES *****************
 
         // ****************** REGISTER ITEMS ******************
-    JackedInVr.registerItem(mySword,"my_sword");
+
     }
 
 
