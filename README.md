@@ -190,6 +190,17 @@ The letters in the pattern (m, h) correspond to items defined in the key section
 
 The pattern represents the crafting grid layout.
 
+Below is some new items you can define if you want to really change up your crafting recipe
+
+"minecraft:iron_ingot"
+"minecraft:gold_ingot"
+"minecraft:diamond"
+"minecraft:emerald"
+"minecraft:redstone"
+"minecraft:stick"
+"minecraft:string"
+
+
 Now Let's Test it!!!!
 
 ![Alt text](Tutorial_Images/Test_Code.png)
